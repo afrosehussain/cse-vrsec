@@ -165,9 +165,56 @@
 	border: 2px solid #FEBA4D;
 	color: #232020;
 }
+
+/*syllabus*/
+.syllabus{
+	background-color: #232020;
+	height: 390px;
+}
 #syl{
+	background-color: #232020;
+	color: #F4F4F4;
+	padding: 6px 10px;
+	border: 2px solid #F4F4F4;
+	border-radius: 5px;
 	font-size: 1em;
-	position: relative;
-	left: 30%;
 	margin-top: 10px;
+}
+#syl:hover{
+	background-color: #FEBA4D;
+	border: 2px solid #FEBA4D;
+	color: #232020;
+}
+#despar{
+	text-align: center;
+}
+#des{
+	margin-top: 80px;
+}
+
+/*footer*/
+.footer{
+	background-color: #232020;
+	height: 385px;
+}
+.footer img{
+	width: 70%;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.footer h3{
+	color: #F4F4F4;
+	font-family: 'Spartan', sans-serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+	border-left: 10px solid #FEBA4D;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.links a{
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 10px;
+	margin-left: 10px;
 }
